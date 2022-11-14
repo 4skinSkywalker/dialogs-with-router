@@ -1,3 +1,10 @@
+.fixed-message {
+    position: fixed;
+    left: 50%;
+    top: 5rem;
+    transform: translateX(-50%);
+}
+
 .super-centered {
     display: grid;
     height: 100vh;
