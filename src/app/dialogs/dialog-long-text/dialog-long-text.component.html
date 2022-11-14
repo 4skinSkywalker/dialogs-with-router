@@ -1,0 +1,10 @@
+<app-dialog-base *ngIf="ds.data">
+    <ng-container header>{{ ds.data.title }}</ng-container>
+    <ng-container body>{{ ds.data.message }}</ng-container>
+    <ng-container footer>
+        <div class="footer-buttons">
+            <button (click)="ds.dismiss()">Dismiss</button>
+            <button (click)="confirm()">Confirm</button>
+        </div>
+    </ng-container>
+</app-dialog-base>

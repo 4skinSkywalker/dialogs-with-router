@@ -1,0 +1,10 @@
+.super-centered {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
